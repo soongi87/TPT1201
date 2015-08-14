@@ -1,0 +1,130 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Ahonen%
+, Hadid%
+\BCBL {}\ \BBA {} Pietikainen%
+}{%
+Ahonen%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2006}}%
+}]{%
+1717463}
+\APACinsertmetastar {%
+1717463}%
+\begin{APACrefauthors}%
+Ahonen, T.%
+, Hadid, A.%
+\BCBL {}\ \BBA {} Pietikainen, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{Dec}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Face Description with Local Binary Patterns: Application
+  to Face Recognition} {Face description with local binary patterns:
+  Application to face recognition}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Pattern Analysis and Machine Intelligence, IEEE
+  Transactions on}{28}{12}{2037-2041}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/TPAMI.2006.244} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+H.~Ekenel%
+, Stallkamp%
+, Gao%
+, Fischer%
+\BCBL {}\ \BBA {} Stiefelhagen%
+}{%
+H.~Ekenel%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2007}}%
+}]{%
+4284823}
+\APACinsertmetastar {%
+4284823}%
+\begin{APACrefauthors}%
+Ekenel, H.%
+, Stallkamp, J.%
+, Gao, H.%
+, Fischer, M.%
+\BCBL {}\ \BBA {} Stiefelhagen, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{July}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Face Recognition for Smart Interactions} {Face
+  recognition for smart interactions}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Multimedia and Expo, 2007 IEEE International Conference
+  on} {Multimedia and expo, 2007 ieee international conference on}\
+  (\BPG~1007-1010).
+\newblock
+\begin{APACrefDOI} \doi{10.1109/ICME.2007.4284823} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+H\BPBI K.~Ekenel%
+\ \BBA {} Stiefelhagen%
+}{%
+H\BPBI K.~Ekenel%
+\ \BBA {} Stiefelhagen%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+ekenel2005local}
+\APACinsertmetastar {%
+ekenel2005local}%
+\begin{APACrefauthors}%
+Ekenel, H\BPBI K.%
+\BCBT {}\ \BBA {} Stiefelhagen, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Local appearance based face recognition using discrete
+  cosine transform. In 13th European Signal Processing Conference (EUSIPCO
+  2005), Antalya, Turkey.} {Local appearance based face recognition using
+  discrete cosine transform. in 13th european signal processing conference
+  (eusipco 2005), antalya, turkey.}{\BBCQ}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Phillips%
+\ \protect \BOthers {.}}{%
+Phillips%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2005}}%
+}]{%
+1467368}
+\APACinsertmetastar {%
+1467368}%
+\begin{APACrefauthors}%
+Phillips, P.%
+, Flynn, P.%
+, Scruggs, T.%
+, Bowyer, K.%
+, Chang, J.%
+, Hoffman, K.%
+\BDBL {}Worek, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{June}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Overview of the face recognition grand challenge}
+  {Overview of the face recognition grand challenge}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Computer Vision and Pattern Recognition, 2005. CVPR
+  2005. IEEE Computer Society Conference on} {Computer vision and pattern
+  recognition, 2005. cvpr 2005. ieee computer society conference on}\ (\BVOL~1,
+  \BPG~947-954 vol. 1).
+\newblock
+\begin{APACrefDOI} \doi{10.1109/CVPR.2005.268} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
