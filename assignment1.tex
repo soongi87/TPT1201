@@ -1,9 +1,74 @@
-\documentclass[•]{article}
-\title{•}
-\author{•}
-\begin{document}
-\abstract{}
-This is a report
+\documentclass[a4paper,12pt]{article}
+\usepackage{times}
+\usepackage{enumerate}
+\usepackage{apacite}
+\bibliographystyle{apacite}
 
-Sample
+\begin{document}
+
+\title{FACE RECOGNITION FOR SMART INTERACTIONS}
+\author{~\cite{4284823}}
+\date{}
+
+
+\maketitle
+\abstract{The technologies were more and more advanced in nowadays. Since we are in the technology era, the security became more important role in this era. The face recognition was developed by security use, it can be protect the data and identify the facial of humans. The face recognition technology is the more strong protection system and have a faster biometric system technology. In any interaction application that can found that face recognition system. The features not only identify the facial of people, it can be improve the performances of the perceptual technologies such as expression analysis system. The face recognition algorithm is based on the appearances of local facial regions represented with discrete cosine transform coefficients.  Based on this algorithm, face recognition system that can be develop three system which is Door monitoring system, Portable face recognition system and 3D face recognition system.}\\
+
+\begin{enumerate}[{1.}]\bfseries
+
+\item{\normalsize  Problem Solved}
+
+\end{enumerate}
+
+The face recognition system implement auto identification, that people no need take cooperate or take specific action to be identified. So the research use auto identification to solve manual identification.\\
+
+\begin{enumerate}[{2.}]\bfseries
+\item{\normalsize Claimed Contributions}
+\end{enumerate}
+The author divides the smart interaction application into two groups. First group is face recognition for smart environment, which can authentication tasks at a constant location. Another group is face recognition for smart machine, that user can authenticate by a machine. 
+
+Local appearance is based on the facial regions and fusion. There have a local appearance-based approach over a holistic appearance-based approach first that is if the local region was changed will affect the features from corresponding block while the features from other blocks will not remain affected. Besides, local appearance-based algorithm can put more weight to the regions.
+Discrete cosine transform (DCT) used to represent the local regions and Karhunen-Loeve transform (KLT) is an optimal transform in terms of information packing. So, that two transform ability are closely, which useful for representation information packing and computational complexity. 
+
+The door monitoring system is first group of smart interaction application. 
+Door monitoring system can holding the people’s head who entering the room in a certain position. The system will face a common problem that is have not fixed illumination so we applied five algorithm that is Local DCT, LDA, L1, MAHCOS and Bayesian to compare with each other. As the result, Local DCT obtain the highest correct recognition rates.
+
+Portable face recognition system is second group of smart interaction application.  The portable face recognition system use webcam in laptop computer for acquiring image. The difficulty of the system is less powerful mobile system and different environment condition, so we applied two approach on Local DCT algorithm for tested, which is Extended Local DCT and Extended Local DCT with LBP. After tested, Extended Local DCT with LBP show good performance in correct recognition rates.
+
+The 3D face recognition system is both group of smart interaction application. The 3D face recognition systems perform depth map images to extract 2D local feature. We tested from grand challenge (FGRC) version 2 data set on 3D face recognition. Second, we used range images collect from spring 2003 for training and spring 2004 for testing. The training data contain neutral expression and testing data contain different expression. Finally, we analysis that Local DCT performing better than other algorithm like Eigenfaces, LDA, and Bayesian in the 3D domain.\\
+
+\begin{enumerate}[{3.}]\bfseries
+\item{\normalsize Related work} 
+\end{enumerate}
+This research was referred to an existing algorithm that presented by \\
+~\cite{ekenel2005local}, who proposed local appearance based algorithm for face recognition. Authors present that Local DCT (10) + Decision Fusion (64) on Yale database obtain the highest rate that is 98.8\% for the correct recognition rate. And for the CMU-PIE database to obtain the highest rate is 70.9\% that is using method Local DCT + Feature Fusion (640).\\
+
+\maketitle
+\begin{enumerate}[{4.}]\bfseries
+\item{\normalsize Methodology} 
+\end{enumerate}
+
+The article is about empirical work. To evaluate the performance, there have two type of approach which is K-nearest-neighbors (K-NN) and Gaussian mixture model (GMM) .K-NN is video-based classification is accomplished by summing up the normalized individual frame scores. In the Gaussian approach, it is done with Bayesian inference.  They have use several face recognition algorithm to compare with each other. The result shows that the Local DCT have a very high correct identification, it obtain 80.6 \% for its performance and the less are LDA,L1 and MAHCOS, they obtain 75.9\%,68.7\% and 66.1\% respectively. There have a very low correct identification which is Bayesian, it obtain 28.0\% for its performance. To main reason to cause have a low performance that is varying pose, illumination changes and extra personal variations almost identical.
+In video-based evaluations, correct recognition rates are significantly higher if sequences of images are appraised as the increased amount of input data compensates for less quality frames. If there have a bad frame, there can be identify and the influence can be reduced. The result are show that K-NN obtain the frame-based is 68.4\%, video-based is 90.9\%, weighted is 92.5\% and Smooth doesn’t available for K-NN. Fot the GMM, the frame-based is 62.7\%, vdeo-based is 86.7\%, Smooth is 87.8\% and Weighted doesn’t available for GMM. The result frame-based of K-NN is lower than face recognition algorithm because the training samples are clustered in video-based face recognition to produce the system real-time. 
+
+The local DCT algorithm apply to portable face recognition system, which can achieve 52.4\% of correct recognition rates. Two approaches perform to this system to improve the correct recognition rates. Firstly, system generate additional training sample by varying both eye coordinates by +2 and -2 pixels in both direction. Then, reduce the number of training vector to the same number as without additional samples by using k-means clustering to keep the allocation fast. Which is extended local DCT can achieve 64.3\% correct recognition rates. Second replaces the image intensities by a label describe the local image texture use local binary patterns (LBP) operator to reduce different illumination condition. Which is extended local DCT with LBP can improve to 78.6\% correct recognition rates. 
+
+The local DCT is best method in the 3D domain after tested in 3D face recognition.  The face recognition grand challenge (FRGC) version 2 data set is used to this system for tested. The range scanner device is analysis imaging subject then store in the 3D data collection of FRGC database. The correct recognition rates of local DCT (93.1\%) in 3D face recognition is higher than eigenfaces (86.5\%), LDA (88.5\%) and Bayesian (89.7\%). \\
+
+
+\maketitle
+\begin{enumerate}[{5.}]\bfseries
+\item{\normalsize Conclusions}
+\end{enumerate}
+The face recognition algorithm and three face recognition systems are explained and presented. All of the face recognition system achieve high correct recognition rates and perform in real-time. The algorithm can adopt well in both 2D and 3D face recognition.\\
+
+
+\maketitle
+\begin{enumerate}[{6.}]\bfseries
+\item{\normalsize \textbf{What did you learn? And possible extension/Future work:} }
+\end{enumerate}
+We learn how the flow to create corresponding depth map in 3D face recognition system. And gain about use approach to improve performance of portable face recognition system on less powerful mobile system and different environment condition. We know that different head position, illumination or any environment changed that will affect the accuracy for the face detected in door monitoring system. For Discrete Cosine Transform are important to numerous application in Science and Karhunen-Loeve Transform is a data transformation and analysis method, commonly use in data compression.\\
+
+\bibliography{MyBib}{}
+
 \end{document}
