@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=latex 2015.8.4)  14 AUG 2015 15:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=latex 2015.8.4)  14 AUG 2015 16:52
 entering extended mode
 **assignment1.tex
-(C:\Users\Teoh\Documents\GitHub\TPT1201\assignment1.tex
+(C:\Users\Teoh\Desktop\assignment1\assignment1.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -46,7 +46,7 @@ Package: apacite 2013/07/21 v6.03 APA citation
 \bibitemsep=\skip46
 \biblabelsep=\skip47
 )
-(C:\Users\Teoh\Documents\GitHub\TPT1201\assignment1.aux)
+(C:\Users\Teoh\Desktop\assignment1\assignment1.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
@@ -146,18 +146,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
-(C:\Users\Teoh\Documents\GitHub\TPT1201\assignment1.bbl
+(C:\Users\Teoh\Desktop\assignment1\assignment1.bbl
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 ) [4]
-(C:\Users\Teoh\Documents\GitHub\TPT1201\assignment1.aux) ) 
+(C:\Users\Teoh\Desktop\assignment1\assignment1.aux) ) 
 Here is how much of TeX's memory you used:
  742 strings out of 493922
- 9556 string characters out of 3147309
+ 9511 string characters out of 3147309
  66960 words of memory out of 3000000
  4096 multiletter control sequences out of 15000+200000
  9491 words of font info for 27 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  22i,7n,19p,978b,239s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on assignment1.dvi (4 pages, 11700 bytes).
+Output written on assignment1.dvi (4 pages, 11932 bytes).
