@@ -1,0 +1,121 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[top=2cm, bottom=1.5cm, left=1cm, right=1cm]{geometry}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage{amsmath}
+\usepackage{apacite}
+\bibliographystyle{apacite}
+
+\title{\textbf{Deep Perceptual Mapping for Thermal to Visible Face Recognition}}
+
+\author{Teoh Soon Gi 1121116020
+		\\Kuan Wei Sern 1121116638}
+
+\begin{document}
+\maketitle
+
+\section{Executive Summary of Research Proposal}
+
+The objective of this research is using deep perceptual mapping (DPM) method improvement matching face in the night-time surveillance, so using the method to detect thermal to store a visible image of high resolution but the problem is the thermal- visible face recognition is due inheritance large modality difference and nature problem, to make systems in low correct match rate. The paper are trying to find what can make two modality closer, detector can recognition in real-time without computational overhead and what the effect of natural problem such as lighting/illumination, expression and identity. The mid-wave infra-red 'MWIR'-visible has a very less of pronounced modality gap and because of long-wave infra-red 'LWIR'-visible has a higher resolution so present DPM methods are harder. This article proposes a technique deep perceptual mapping to bridge the modality gap by a significant margin. With development of deep perceptual mapping for thermal to visible face recognition, the DPM is easy to train, very useful and able real-time.
+
+
+\section{Introduction}
+
+    In thermal –to – visible face recognition facing a very common problems that is in the difference environment condition will deduced the performance of the face recognition. It’s can’t identify the face accuracy. The environment must only have spectrum will improve the performance, in converse, in the dark environment the system couldn’t detect the face or have a low performance. So currently intra-red spectrum is the most stable to identify effects because it’s doesn’t easier affected by any environments. The objects of the research in cross-modal face recognition to identify a person captured by intra-red spectrum and through the active infra-red sensors can perform in the night-time when the image is captured covertly. In intra-red spectrum, it can be without any light sources and it can be through the skin tissue to get thermal signatures and it is through passive thermal sensor. In intra-red spectrum can be divided by four main ranger that is Near (NIR), short-ware (SWIR), mid-ware (MWIR) and long-ware (LWIR) intra-red. NIR and SWIR are close the visible spectrum because they are reflection dominant but MWIR and LWIR are emission dominant so that they close to the thermal spectrum. Near intra-red and short-ware intra-red have a good results at the visible face matching because they have a small spectral gap and they modalities are quite similar.The limitation that is in the night-time surveillance,so it's only focus on thermal to visible. 
+
+\section{Justification of Research} 
+
+Thermal- to-visible facing a challenge matching problem because of there have a very large of modality gap. The research present a way to using significant margin to connect the modality gap. Using deep perceptual mapping capture the non-linear relationship and two modalities. The modality difference more that 40\% so in the thermal-visible face recognition using deep neural network to connect with the modality gap. Because of modalities and resolution in deep perceptual mapping are difference so the relationship between of them are non-linear so it is have the large gap between visible image and thermal.
+
+\section{Research Objectives}
+
+\begin{itemize}
+  \item To study technique of face recognition system for detection dark environment.
+  \item To design face recognition technique to provide efficient and real time capable.
+  \item To enhance face recognition system by using deep perceptual mapping for thermal to visible.
+  \item To test the performance of face recognition system in University of Notre Dame (UND) collection dataset.
+\end{itemize}
+
+
+\section{Literature Review} 
+
+The first of compare studies is face matching between visible light images and near infrared \cite{20}. It is the early to explore the NIR to visible face recognition. They adopt canomical correspondence analysis and Latent Dirichlet allocation (LDA) to implement linear regression between the visible images and Near infra-red (NIR).
+
+Visible to thermal face recognition \cite{18} is one earlier studies carried out by Socolinsky and Selinger. They found out that ''LWIR thermal imagery of human face not only a valid biometric, but almost surely a superior one to comparable visible imagery''.
+
+Some approach also focused on short-wave infra-red (SWIR)- to visible face recognition \cite{16} \cite{17}. SWIR or NIR to visible face matching carried out best result and similar modalities because of small spectral gap. The two approach only can adopt in night time surveillance application, for further research is needed in the thermal to visible matching domain.
+
+\section{Research Methodology} 
+
+The deep perceptual mapping \cite{DBLP:journals/corr/SarfrazS15} can be divided into two parts:
+
+\begin{enumerate}[I]
+
+\item \textbf{{\large Deep Perceptual Mapping (DPM) Model}}
+
+ The deep perceptual mapping is based on a deep feed forward deep neural network \cite{5}. The target of training the deep network is to gain projections that can be used to bring two modalities closer. The simple feed forward neural network is giving a nice fitting architecture for such an objective. First provided the output of level hidden layer as:
+ 
+ \begin{equation}
+H(x) = h^{(N)} = g(W^{(N)}h^{(N-1)} +b^{(N)})
+\end{equation}
+ 
+ Assume that N+1 layers with m(k)in k-th layer, so the layer k=1,2…,N, each layer has a non-linear output by using matrix W and non-linear function $g(\cdot )$. So input output of k-th become $h^{(k)} = g(W^{(k)}h^{(k-1)} +b^{(k)})$ and $b^{(k)}$ is a bias vector. The mapping H is a perceptual mapping function so with the output “$H(x) = h^{(N)} = g(W^{(N)}h^{(N-1)} +b^{(N)})$” so equation 2 final output:
+ 
+ \begin{equation}
+  \overline{X} = s(W^{(N+1)}H(x))
+  \end{equation}
+  
+   and 's' is linear mapping. We use the formula of equation 2 determine the parameters 'b' and 'W' because of objective function must minimize to differentiate between the thermal and visible. So formulate of DPM as:
+   
+\begin{equation}
+arg \frac{min}{W,b} J = \frac{1}{M} \sum_{i=1}^{M} ({\overline{X}}_{i}-{t}_{i})^2 + \frac{\lambda}{N} \sum_{k=1}^{N} (||W^{(k)})|| _{F}^{2} + || b^{(k)}|| _{2}^{2})
+ \end{equation}
+ 
+The first term objective is to simple squared loss with the network and the corresponding training and the second terms is regularization term with the regularization parameter.
+ 
+For DPM training, we adopted densely computed feature representation overlapping small region in the image. This can make model easy to taking the differing local region's perceptual, ease the need of large training image and show the input in approximately small dimension. After that, use same identity corresponding image assure the model can learn only show differences due to the modality as the other appearance parameters such as expression, identity, lighting and so on. The stochastic gradient descent (SGD) \cite{sgd} approach is used for updated the standard back projection of error from computing the gradient of the loss in each iteration. We adopt hyperlic tangent 'tanh' function for non linear activation function g (z) in invisible layers.
+
+\item\textbf{{\large  Thermal - Visible Face Matching}}
+
+We used same approach as \cite{3} to matching face. we use ideal for the surveillance scenario, so the gallery image can store offline and processed during test period no transformation and overhead is necessary. Furthermore, the detector able to recognition in real-time using without any computational overhead. The presented DPM is not dependent on the direction of mapping. We examined the opposite thermal to visible only slight performance variation.  
+
+\end{enumerate}
+The authors have done few test to evaluate the efficient of the DPM system. The first test result show the system can make accuracy rate of 83\% when a comparing thermal image a varied number of well-lit images. 60\% when compare two available/subject. And 55\% when doing one to one comparison. All the test is using University of Notre Dame's (UND) collection X1.
+  
+\bibliography{MyBib}{}
+
+\begin{table}[h]
+\begin{tabularx}{1.0\linewidth}{|l|X|}
+\hline
+Tittle of research project        & Deep Perceptual Mapping for Thermal to Visible Face Recognition \\
+
+\hline
+
+Member of project  &  \begin{enumerate}
+  \item Teoh Soon Gi 1121116020
+  \item Kuan Wei Sern 1121116638
+\end{enumerate}\\
+
+\hline
+
+Executive Summary (5 marks) & \\
+
+\hline
+
+Introduction  (3 marks) & \\
+\hline
+Justification of research (3 marks)& \\
+\hline
+Research objective (3 marks)& \\
+\hline
+Literature review  (6 marks)& \\
+\hline
+Research Methodology  (8 marks)& \\
+\hline
+References (2 marks)& \\
+\hline
+
+\end{tabularx}
+\end{table}
+
+\end{document}
