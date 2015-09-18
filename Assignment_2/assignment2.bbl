@@ -1,266 +1,56 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
 
-\bibitem [\protect \citeauthoryear {%
-Bottou%
-}{%
-Bottou%
-}{%
-{\protect \APACyear {2010}}%
-}]{%
-sgd}
-\APACinsertmetastar {%
-sgd}%
-\begin{APACrefauthors}%
-Bottou, L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2010}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Large-scale machine learning with stochastic gradient
-  descent} {Large-scale machine learning with stochastic gradient
-  descent}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {Proceedings of COMPSTAT'2010} {Proceedings of
-  compstat'2010}\ (\BPGS\ 177--186).
-\newblock
-\APACaddressPublisher{}{Springer}.
-\PrintBackRefs{\CurrentBib}
+\bibitem{sgd}
+L{\'e}on Bottou.
+\newblock Large-scale machine learning with stochastic gradient descent.
+\newblock In {\em Proceedings of COMPSTAT'2010}, pages 177--186. Springer,
+  2010.
 
-\bibitem [\protect \citeauthoryear {%
-Bourlai%
-, Kalka%
-, Ross%
-, Cukic%
-\BCBL {}\ \BBA {} Hornak%
-}{%
-Bourlai%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2010}}%
-}]{%
-17}
-\APACinsertmetastar {%
-17}%
-\begin{APACrefauthors}%
-Bourlai, T.%
-, Kalka, N.%
-, Ross, A.%
-, Cukic, B.%
-\BCBL {}\ \BBA {} Hornak, L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2010}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Cross-Spectral Face Verification in the Short Wave
-  Infrared (SWIR) Band} {Cross-spectral face verification in the short wave
-  infrared (swir) band}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {Proceedings of the 2010 20th International Conference on
-  Pattern Recognition} {Proceedings of the 2010 20th international conference
-  on pattern recognition}\ (\BPGS\ 1343--1347).
-\newblock
-\APACaddressPublisher{Washington, DC, USA}{IEEE Computer Society}.
-\newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1109/ICPR.2010.1115}
-  \end{APACrefURL}
-\newblock
-\begin{APACrefDOI} \doi{10.1109/ICPR.2010.1115} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
+\bibitem{17}
+Thirimachos Bourlai, Nathan Kalka, Arun Ross, Bojan Cukic, and Lawrence Hornak.
+\newblock Cross-spectral face verification in the short wave infrared (swir)
+  band.
+\newblock In {\em Proceedings of the 2010 20th International Conference on
+  Pattern Recognition}, ICPR '10, pages 1343--1347, Washington, DC, USA, 2010.
+  IEEE Computer Society.
 
-\bibitem [\protect \citeauthoryear {%
-Choi%
-, Hu%
-, Young%
-\BCBL {}\ \BBA {} Davis%
-}{%
-Choi%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2012}}%
-}]{%
-3}
-\APACinsertmetastar {%
-3}%
-\begin{APACrefauthors}%
-Choi, J.%
-, Hu, S.%
-, Young, S\BPBI S.%
-\BCBL {}\ \BBA {} Davis, L\BPBI S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2012}{}{}.
-\newblock
-\APACrefbtitle {Thermal to visible face recognition} {Thermal to visible face
-  recognition}\ (\BVOL\ 8371).
-\newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1117/12.920330} \end{APACrefURL}
-\newblock
-\begin{APACrefDOI} \doi{10.1117/12.920330} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
+\bibitem{3}
+Jonghyun Choi, Shuowen Hu, S.~Susan Young, and Larry~S. Davis.
+\newblock Thermal to visible face recognition, 2012.
 
-\bibitem [\protect \citeauthoryear {%
-Glorot%
-\ \BBA {} Bengio%
-}{%
-Glorot%
-\ \BBA {} Bengio%
-}{%
-{\protect \APACyear {2010}}%
-}]{%
-5}
-\APACinsertmetastar {%
-5}%
-\begin{APACrefauthors}%
-Glorot, X.%
-\BCBT {}\ \BBA {} Bengio, Y.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2010}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Understanding the difficulty of training deep
-  feedforward neural networks} {Understanding the difficulty of training deep
-  feedforward neural networks}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {In Proceedings of the International Conference on
-  Artificial Intelligence and Statistics (AISTATS’10). Society for Artificial
-  Intelligence and Statistics.} {In proceedings of the international conference
-  on artificial intelligence and statistics (aistats’10). society for
-  artificial intelligence and statistics.}
-\PrintBackRefs{\CurrentBib}
+\bibitem{5}
+Xavier Glorot and Yoshua Bengio.
+\newblock Understanding the difficulty of training deep feedforward neural
+  networks.
+\newblock In {\em In Proceedings of the International Conference on Artificial
+  Intelligence and Statistics (AISTATS’10). Society for Artificial
+  Intelligence and Statistics}, 2010.
 
-\bibitem [\protect \citeauthoryear {%
-Nicolo%
-\ \BBA {} Schmid%
-}{%
-Nicolo%
-\ \BBA {} Schmid%
-}{%
-{\protect \APACyear {2012}}%
-}]{%
-16}
-\APACinsertmetastar {%
-16}%
-\begin{APACrefauthors}%
-Nicolo, F.%
-\BCBT {}\ \BBA {} Schmid, N.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2012}{Dec}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Long Range Cross-Spectral Face Recognition: Matching
-  SWIR Against Visible Light Images} {Long range cross-spectral face
-  recognition: Matching swir against visible light images}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Information Forensics and Security, IEEE Transactions
-  on}{7}{6}{1717-1726}.
-\newblock
-\begin{APACrefDOI} \doi{10.1109/TIFS.2012.2213813} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
+\bibitem{16}
+F.~Nicolo and N.A. Schmid.
+\newblock Long range cross-spectral face recognition: Matching swir against
+  visible light images.
+\newblock {\em Information Forensics and Security, IEEE Transactions on},
+  7(6):1717--1726, Dec 2012.
 
-\bibitem [\protect \citeauthoryear {%
-Sarfraz%
-\ \BBA {} Stiefelhagen%
-}{%
-Sarfraz%
-\ \BBA {} Stiefelhagen%
-}{%
-{\protect \APACyear {2015}}%
-}]{%
-DBLP:journals/corr/SarfrazS15}
-\APACinsertmetastar {%
-DBLP:journals/corr/SarfrazS15}%
-\begin{APACrefauthors}%
-Sarfraz, M\BPBI S.%
-\BCBT {}\ \BBA {} Stiefelhagen, R.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2015}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Deep Perceptual Mapping for Thermal to Visible Face
-  Recognition} {Deep perceptual mapping for thermal to visible face
-  recognition}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{CoRR}{abs/1507.02879}{}{}.
-\newblock
-\begin{APACrefURL} \url{http://arxiv.org/abs/1507.02879} \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem{DBLP:journals/corr/SarfrazS15}
+M.~Saquib Sarfraz and Rainer Stiefelhagen.
+\newblock Deep perceptual mapping for thermal to visible face recognition.
+\newblock {\em CoRR}, abs/1507.02879, 2015.
 
-\bibitem [\protect \citeauthoryear {%
-Socolinsky%
-\ \BBA {} Selinger%
-}{%
-Socolinsky%
-\ \BBA {} Selinger%
-}{%
-{\protect \APACyear {2002}}%
-}]{%
-18}
-\APACinsertmetastar {%
-18}%
-\begin{APACrefauthors}%
-Socolinsky, D\BPBI A.%
-\BCBT {}\ \BBA {} Selinger, A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2002}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {A Comparative Analysis of Face Recognition Performance
-  with Visible and Thermal Infrared Imagery} {A comparative analysis of face
-  recognition performance with visible and thermal infrared imagery}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {Proceedings of the 16 th International Conference on
-  Pattern Recognition (ICPR'02) Volume 4 - Volume 4} {Proceedings of the 16 th
-  international conference on pattern recognition (icpr'02) volume 4 - volume
-  4}\ (\BPGS\ 40217--).
-\newblock
-\APACaddressPublisher{Washington, DC, USA}{IEEE Computer Society}.
-\newblock
-\begin{APACrefURL} \url{http://dl.acm.org/citation.cfm?id=846227.848532}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem{18}
+Diego~A. Socolinsky and Andrea Selinger.
+\newblock A comparative analysis of face recognition performance with visible
+  and thermal infrared imagery.
+\newblock In {\em Proceedings of the 16 th International Conference on Pattern
+  Recognition (ICPR'02) Volume 4 - Volume 4}, ICPR '02, pages 40217--,
+  Washington, DC, USA, 2002. IEEE Computer Society.
 
-\bibitem [\protect \citeauthoryear {%
-Yi%
-, Liu%
-, Chu%
-, Lei%
-\BCBL {}\ \BBA {} Li%
-}{%
-Yi%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2007}}%
-}]{%
-20}
-\APACinsertmetastar {%
-20}%
-\begin{APACrefauthors}%
-Yi, D.%
-, Liu, R.%
-, Chu, R.%
-, Lei, Z.%
-\BCBL {}\ \BBA {} Li, S\BPBI Z.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2007}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Face Matching Between Near Infrared and Visible Light
-  Images} {Face matching between near infrared and visible light
-  images}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {Proceedings of the 2007 International Conference on
-  Advances in Biometrics} {Proceedings of the 2007 international conference on
-  advances in biometrics}\ (\BPGS\ 523--530).
-\newblock
-\APACaddressPublisher{Berlin, Heidelberg}{Springer-Verlag}.
-\newblock
-\begin{APACrefURL} \url{http://dl.acm.org/citation.cfm?id=2391659.2391719}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem{20}
+Dong Yi, Rong Liu, RuFeng Chu, Zhen Lei, and Stan~Z. Li.
+\newblock Face matching between near infrared and visible light images.
+\newblock In {\em Proceedings of the 2007 International Conference on Advances
+  in Biometrics}, ICB'07, pages 523--530, Berlin, Heidelberg, 2007.
+  Springer-Verlag.
 
 \end{thebibliography}
