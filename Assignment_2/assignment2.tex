@@ -38,12 +38,22 @@ Thermal- to-visible facing a challenge matching problem because of there have a 
 
 
 \section{Literature Review} 
+\begin{enumerate}[I]
+
+\item \textbf{{\large Face matching between visible light images and near infrared}}
 
 The first of compare studies is face matching between visible light images and near infrared \cite{20}. It is the early to explore the NIR to visible face recognition. They adopt canomical correspondence analysis and Latent Dirichlet allocation (LDA) to implement linear regression between the visible images and Near infra-red (NIR).
 
+
+\item \textbf{{\large Visible to thermal face recognition}}
+
 Visible to thermal face recognition \cite{18} is one earlier studies carried out by Socolinsky and Selinger. They found out that ''LWIR thermal imagery of human face not only a valid biometric, but almost surely a superior one to comparable visible imagery''.
 
+\item \textbf{{\large Short-wave infra-red (SWIR)- to visible face recognition}}
+
 Some approach also focused on short-wave infra-red (SWIR)- to visible face recognition \cite{16} \cite{17}. SWIR or NIR to visible face matching carried out best result and similar modalities because of small spectral gap. The two approach only can adopt in night time surveillance application, for further research is needed in the thermal to visible matching domain.
+
+\end{enumerate}
 
 \section{Research Methodology} 
 
@@ -80,7 +90,7 @@ For DPM training, we adopted densely computed feature representation overlapping
 We used same approach as \cite{3} to matching face. we use ideal for the surveillance scenario, so the gallery image can store offline and processed during test period no transformation and overhead is necessary. Furthermore, the detector able to recognition in real-time using without any computational overhead. The presented DPM is not dependent on the direction of mapping. We examined the opposite thermal to visible only slight performance variation.  
 
 \end{enumerate}
-The authors have done few test to evaluate the efficient of the DPM system. The first test result show the system can make accuracy rate of 83\% when a comparing thermal image a varied number of well-lit images. 60\% when compare two available/subject. And 55\% when doing one to one comparison. All the test is using University of Notre Dame's (UND) collection X1.
+The authors have done few test to evaluate the efficient of the DPM system. The first test result show the system can make accuracy rate of 83\% when a comparing thermal image a varied number of well-lit images. 60\% when compare two available/subject. And 55\% when doing one to one comparison. The second test is showed performance of effect of modality. Thermal to visible without DPM is achieve 30\% performance. The performance of thermal to visible with DPM is improved  25\% to 55\%. All the test is using University of Notre Dame's (UND) collection X1.
   
 \bibliography{MyBib}{}
 
